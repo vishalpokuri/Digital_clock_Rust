@@ -1,4 +1,4 @@
-#Do you want a cool looking clock like this in your terminal?
+# Do you want a cool looking clock like this in your terminal?
 
 ![image](https://github.com/user-attachments/assets/93b14782-9e73-4d47-ad6a-a35a64894f59)
 
