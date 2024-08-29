@@ -1,6 +1,5 @@
 use chrono::prelude::*;
 use colored::*;
-use std::io;
 use std::{thread::sleep, time::Duration};
 fn main() {
     #[allow(unused_variables)]
@@ -618,7 +617,7 @@ fn main() {
             '9' => *second_ones = colorify_9(second_ones),
             _ => {}
         };
-        if (what_second_ones.to_digit(10).unwrap() % 2 == 0) {
+        if what_second_ones.to_digit(10).unwrap() % 2 == 0 {
             *dot1 = colorify_dot(dot1);
             *dot2 = colorify_dot(dot2);
         } else {
